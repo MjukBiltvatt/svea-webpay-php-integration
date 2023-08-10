@@ -112,6 +112,8 @@ class GetOrdersResponse extends AdminServiceResponse
      */
     public $paymentPlanDetailsContractNumber;
 
+    public $pendingReasons;
+
     /**
      * @var string $pendingReasonsPendingType -- one of {SMSOnHighAmount,UseOfDeliveryAddress}
      */
@@ -521,6 +523,7 @@ class GetOrdersResponse extends AdminServiceResponse
                 $this->pendingReasonsPendingType = $order->PendingReasons->PendingType;
             }
             if (is_a($order->PendingReasons, "stdClass") && property_exists($order->PendingReasons, "CreatedDate")) {
+                //TODO: Is this supposed to be defined property `pendingReasonsCreatedDate`? If not then define this property.
                 $this->PendingReasonsCreatedDate = $order->PendingReasons->CreatedDate;
             }
 

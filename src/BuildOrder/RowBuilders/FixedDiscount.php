@@ -30,6 +30,11 @@ class FixedDiscount
     public $description;
 
     /**
+     * @var float $amount
+     */
+    public $amount;
+
+    /**
      * @var float $amountIncVat
      */
     public $amountIncVat;

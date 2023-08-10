@@ -26,6 +26,15 @@ use Svea\WebPay\HostedService\Payment\PaymentMethodPayment;
  */
 class CreateOrderBuilder extends OrderBuilder
 {
+    /**
+     * @var string $campaignCode
+     */
+    public $campaignCode;
+
+    /**
+     * @var bool $sendAutomaticGiroPaymentForm
+     */
+    public $sendAutomaticGiroPaymentForm;
 
     /**
      * Use useInvoicePayment to initiate an invoice payment.

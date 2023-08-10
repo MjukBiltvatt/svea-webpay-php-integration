@@ -50,6 +50,11 @@ class InvoiceFee
     public $temporaryReference;
 
     /**
+     * @var string $name
+     */
+    public $name;
+
+    /**
      * InvoiceFee constructor.
      */
     function __construct()

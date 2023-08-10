@@ -74,9 +74,14 @@ class IndividualCustomer
     public $locality;
 
     /**
-     * $var string $publicKey
+     * @var string $publicKey
      */
     public $publicKey;
+
+    /**
+     * @var string $name
+     */
+    public $name;
 
     // set in GetOrdersResponse
     public $fullName;               // compounded fullName, may be set by CreateOrder for i.e. orders where identify customer via ssn

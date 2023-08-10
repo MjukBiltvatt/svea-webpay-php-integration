@@ -34,6 +34,31 @@ class GetAccountCreditsResponse
      */
     public $accountCredits;
 
+    public $createdDate;
+    public $changedDate;
+    public $clientId;
+    public $clientOrderId;
+    public $currency;
+    public $customer;
+    public $customerId;
+    public $customerReference;
+    public $creditReportStatusAccepted;
+    public $creditReportStatusCreationDate;
+    public $isPossibleToAdminister;
+    public $isPossibleToCancel;
+    public $notes;
+    public $orderDeliveryStatus;
+    public $orderStatus;
+    public $orderType;
+    public $numberedOrderRows;
+    public $paymentPlanDetailsContractLengthMonths;
+    public $paymentPlanDetailsContractNumber;
+    public $pendingReasons;
+    public $pendingReasonsPendingType;
+    public $PendingReasonsCreatedDate;
+    public $orderId;
+    public $sveaWillBuy;
+
     /**
      * GetOrdersResponse constructor.
      * @param $message

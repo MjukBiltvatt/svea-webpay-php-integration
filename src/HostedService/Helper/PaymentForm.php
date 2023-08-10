@@ -16,6 +16,7 @@ use Svea\WebPay\Config\ConfigurationProvider;
  */
 class PaymentForm
 {
+    public $rawFields;
     public $endPointUrl;
     public $xmlMessage;
     public $xmlMessageBase64;

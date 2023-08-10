@@ -41,6 +41,36 @@ class HostedPaymentResponse extends HostedResponse
     public $currency;
 
     /**
+     * @var string $subscriptionId
+     */
+    public $subscriptionId;
+
+    /**
+     * @var string $cardType
+     */
+    public $cardType;
+
+    /**
+     * @var string $maskedCardNumber
+     */
+    public $maskedCardNumber;
+
+    /**
+     * @var string $expiryMonth
+     */
+    public $expiryMonth;
+
+    /**
+     * @var string $expiryYear
+     */
+    public $expiryYear;
+
+    /**
+     * @var string $authCode
+     */
+    public $authCode;
+
+    /**
      * HostedPaymentResponse validates the hosted payment response.
      *
      * For successful payment requests it sets the accepted attribute to 1 and

@@ -30,6 +30,16 @@ class CustomerIdentityResponse
     public $fullName;
 
     /**
+     * @var string $firstName
+     */
+    public $firstName;
+
+    /**
+     * @var string $lastName
+     */
+    public $lastName;
+
+    /**
      * @var string $street
      */
     public $street;

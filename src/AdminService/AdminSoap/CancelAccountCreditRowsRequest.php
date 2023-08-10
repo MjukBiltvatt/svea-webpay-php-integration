@@ -10,6 +10,7 @@ class CancelAccountCreditRowsRequest
     public $CancellationRows;
     public $ClientAccountCreditId;
     public $ClientId;
+    public $NewCancellationRows;
 
     /**
      * AdminService CreditInvoiceRowsRequest

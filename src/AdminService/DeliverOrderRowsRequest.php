@@ -22,6 +22,8 @@ class DeliverOrderRowsRequest extends AdminServiceRequest
      */
     public $orderBuilder;
 
+    public $rowNumbers;
+
     /**
      * @param DeliverOrderRowsBuilder $deliverOrderRowsBuilder
      */

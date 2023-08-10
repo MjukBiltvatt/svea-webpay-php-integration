@@ -52,6 +52,8 @@ class DeliverOrderResult extends WebServiceResponse
      */
     public $contractNumber;
 
+    public $deliveryReferenceNumber;
+
 
     /**
      * DeliverOrderResult constructor.

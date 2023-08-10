@@ -16,6 +16,10 @@ use Svea\WebPay\HostedService\HostedResponse\HostedResponse;
  */
 class HostedAdminResponse extends HostedResponse
 {
+    public $id;
+    public $created;
+    public $url;
+    public $testurl;
     protected $config;
 
     /**

@@ -37,6 +37,8 @@ abstract class AdminServiceRequest
 
     public $logging = false;
 
+    public $orderBuilder;
+
     /**
      * the integration package Svea\WebPay\Config\ConfigurationProvider::INVOICE_TYPE and ::PAYMENTPLAN_TYPE constants are all caps, whereas the admin service
      * enumeration used in the calls are CamelCase. This function converts the package constants so that they work with the admin service.

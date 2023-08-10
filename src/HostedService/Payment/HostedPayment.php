@@ -87,6 +87,31 @@ class HostedPayment
     public $request;
 
     /**
+     * @var string $paymentMethod
+     */
+    public $paymentMethod;
+
+    /**
+     * @var string $subscriptionId
+     */
+    public $subscriptionId;
+
+    /**
+     * @var string $subscriptionType
+     */
+    public $subscriptionType;
+
+    /**
+     * @var ConfigurationProvider $config
+     */
+    public $config;
+
+    /**
+     * @var string $countryCode
+     */
+    public $countryCode;
+
+    /**
      * Creates a HostedPayment, sets default language to english
      * @param CreateOrderBuilder $order
      */

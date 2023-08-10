@@ -13,6 +13,11 @@ use Svea\WebPay\Checkout\Validation\ExVatRestrictionValidator;
  */
 abstract class OrderValidator
 {
+    /**
+     * @var bool $isCompany
+     */
+    public $isCompany;
+
     public abstract function validate($order);
 
     /**
