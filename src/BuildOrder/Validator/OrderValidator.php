@@ -16,7 +16,7 @@ abstract class OrderValidator
     /**
      * @var bool $isCompany
      */
-    public $isCompany;
+    protected $isCompany;
 
     public abstract function validate($order);
 
